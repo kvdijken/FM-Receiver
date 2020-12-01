@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name kvd)(type KiCad)(uri "/Users/koen/Library/Mobile Documents/com~apple~CloudDocs/KiCad/libraries/kvd/footprints/kvd.pretty")(options "")(descr ""))
+  (lib (name Package_TO_SOT_SMD)(type KiCad)(uri "/Users/koen/Library/Mobile Documents/com~apple~CloudDocs/KiCad/libraries/kicad/Package_TO_SOT_SMD.pretty")(options "")(descr ""))
+)
