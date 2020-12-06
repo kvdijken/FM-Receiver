@@ -1,0 +1,24 @@
+#ifndef STATES_H
+#define STATES_H
+
+// State Machine
+
+// Events
+#define EVENT_UP 1
+#define EVENT_DOWN 2
+#define EVENT_BTN_NEXT_PRESSED 5
+#define EVENT_BTN_DEFAULT_PRESSED 7
+#define EVENT_BTN_DEFAULT_RELEASED 8
+#define EVENT_BTN_MODE_PRESSED 9
+#define EVENT_BTN_MODE_RELEASED 10
+#define EVENT_IDLE 11
+
+// States
+#define STATE_FREQUENCY 1
+#define STATE_IF1 3
+#define STATE_IF2 5
+#define STATE_DRIVELVL_1 8
+#define STATE_DRIVELVL_2 10
+#define STATE_INJECTION 13
+
+#endif
