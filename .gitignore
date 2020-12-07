@@ -24,6 +24,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-documentation/FM Receiver 1.0.pages
 *.pages
 *.numbers
