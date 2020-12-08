@@ -22,6 +22,9 @@ Keep in mind that the schematic, and the pcb which is derived from the schematic
 
 In the next few weeks, months, my main focus will be on measurements on the receiver. I will try to characterise the receiver as well as possible. From there the receiver can be improved.
 
+On Youtube you can find a demonstration of this receiver: https://youtu.be/TlIiLwKdwg0
+
+
 Current version is 1.0
 
 Feel free to ask/contribute.
