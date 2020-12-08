@@ -1,6 +1,6 @@
 ﻿# FM Receiver
 
-In this project you will find my home built FM receiver. The goal is to create a receiver only. It delivers line level audio. It only needs an additional audio amplifier to be able to hear your favorite radio station from the speakers.
+In this project you will find my home built FM receiver. The goal is to create a receiver with discrete components only, no integrated circuits. It delivers line level audio. It only needs an additional audio amplifier to be able to hear your favorite radio station from the speakers.
 
 Performance is very good. I receive all FM radio stations with great clarity. Its sensitivity is 11𝜇V.
 
@@ -16,9 +16,9 @@ In this project you will find
 * some photos of my implementation
 * measurements I have done on this receiver (in folder 'measurements').
 
-In this project you will not find the schematic for the digital section yet. The digital section is not complicated however. It consists of an Arduino Nano, three pushbuttons, one LED, 1 rotary encoder, one display and one Adafruit Si5351 breakout board. From the Arduino sourcecode you should be able to discover the wiring. The Si5351 delivers the two local oscillator frequencies which are needed for the receiver.
+In this project you will not find the schematic for the digital section yet. I will still have to create this schematic. The digital section is not complicated however. It consists of an Arduino Nano, three pushbuttons, one LED, 1 rotary encoder, one display and one Adafruit Si5351 breakout board. From the Arduino sourcecode you should be able to discover the wiring. The Si5351 delivers the two local oscillator frequencies which are needed for the receiver.
 
-Keep in mind that the schematic, and the pcb which is derived from the schematic contain an serious error. This error is described in the documentation. Also is described how to work around the error. You can still use the pcb design, even with this bug. in the next version of this receiver this error will be solved.
+Keep in mind that the schematic, and the pcb which is derived from the schematic contain an serious error. I kept this error in the schematic, to keep the schematic and pcb design in sync. The error is described in the documentation. Also is described how to work around the error, which is quite simple. You can still use the pcb design, even with this bug. In the next version of this receiver this error will be solved.
 
 In the next few weeks, months, my main focus will be on measurements on the receiver. I will try to characterise the receiver as well as possible. From there the receiver can be improved.
 
